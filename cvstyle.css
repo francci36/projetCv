@@ -1,3 +1,7 @@
+body{
+    margin: 0 100px 0 100px;
+    padding: 30px 30px;
+}
 .CV-container{
     display: flex;
     flex-wrap: nowrap;
