@@ -13,14 +13,102 @@ background-color: #4472C4;
 color: white;
 }
 .image{
-    margin: 5px 20px 0 0;
-    border: 5px solid #44c47996;
-    padding: botton 0;
+        margin: 5px 20px 0 0;
+        border: 5px solid #44c47996;
+        border-radius: 10px;
+        padding-bottom: 0;
+        overflow: hidden;
+        position: relative;
+        display: block;
+        padding-top: 150px;
+}
+img{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+        min-height: 100%;
+        width: 100%;
+        min-width: 100%;
+        object-fit: cover;
+}
+.infoperso{
+    border: solid #c2d2d2;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 255, 0.15);
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.langue{
+    border: solid #c2d2d2;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgba(169, 169, 169, 0.595);
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+ul.listing-competences{
+    padding-left: 0%;
+
+}
+.listing-competences li{
+    font-style: italic;
+    color: indigo;
+    font-weight: bold;
+    list-style: none;
+    padding-bottom: 8px;;
+}
+.listing-competences span{
+color: white;
+font-weight: lighter;
+display: inline-block;
+padding-top: 4px;
+}
+.langue h3, .atouts h3{
+    font-size: large;
+    color: rgba(0, 0, 0, 0.721);
+}
+.langue strong{
+    font-style: italic;
+    color: indigo;
+}
+.atouts{
+    border: solid #c2d2d2;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgba(169, 169, 169, 0.595);
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.atouts p{
+    line-height: 20px;
 }
 .right-column{
     padding: 50px;
     background-color: #9144c4;
     color: white;
+}
+ .header{
+    border: solid #c2d2d2;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.721);
+    background-color: rgba(255, 0, 255, 0.299);
+}
+.right-column h3, h5{
+    color: rgba(0, 0, 0, 0.721);
+}
+@media only screen and (min-width: 600px) {
+    
 }
 
 
