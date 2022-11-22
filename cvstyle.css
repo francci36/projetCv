@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 5px 20%;
     padding: 0;
 }
 .CV-container{
@@ -11,6 +11,11 @@ body{
 padding: 0 0 0 30px;
 background-color: #4472C4;
 color: white;
+}
+.image{
+    margin: 5px 20px 0 0;
+    border: 5px solid #44c47996;
+    padding: botton 0;
 }
 .right-column{
     padding: 50px;
